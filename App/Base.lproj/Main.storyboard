@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -946,22 +946,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discussion Board" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-AN-uG1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluebg" translatesAutoresizingMaskIntoConstraints="NO" id="7MA-0O-YAh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Discussion Board" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-AN-uG1">
                                 <rect key="frame" x="0.0" y="94" width="414" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="heB-ZI-j7g" userLabel="StackView">
-                                <rect key="frame" x="40" y="217" width="269" height="522"/>
+                                <rect key="frame" x="50" y="217" width="314" height="523.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for a post..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-dt-IKm" userLabel="Search Bar">
-                                        <rect key="frame" x="0.0" y="0.0" width="269" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="45.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLI-6v-NRa">
-                                        <rect key="frame" x="0.0" y="133" width="269" height="150"/>
+                                        <rect key="frame" x="0.0" y="134.5" width="314" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="77U-2c-Sno"/>
                                         </constraints>
@@ -971,7 +974,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-GJ-LsC">
-                                        <rect key="frame" x="0.0" y="372" width="269" height="150"/>
+                                        <rect key="frame" x="0.0" y="373.5" width="314" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="hga-GX-Otd"/>
                                         </constraints>
@@ -985,11 +988,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="7MA-0O-YAh" firstAttribute="leading" secondItem="jCO-PJ-Nnw" secondAttribute="leading" id="QUH-2B-tao"/>
                             <constraint firstItem="jCO-PJ-Nnw" firstAttribute="trailing" secondItem="6LW-AN-uG1" secondAttribute="trailing" id="QuW-L2-oar"/>
                             <constraint firstItem="6LW-AN-uG1" firstAttribute="top" secondItem="jCO-PJ-Nnw" secondAttribute="top" constant="50" id="aiY-c7-ehK"/>
+                            <constraint firstItem="7MA-0O-YAh" firstAttribute="top" secondItem="6LW-AN-uG1" secondAttribute="bottom" constant="-142" id="dnQ-hs-WTR"/>
+                            <constraint firstItem="jCO-PJ-Nnw" firstAttribute="bottom" secondItem="7MA-0O-YAh" secondAttribute="bottom" constant="-34" id="eAT-fo-czS"/>
+                            <constraint firstItem="jCO-PJ-Nnw" firstAttribute="trailing" secondItem="7MA-0O-YAh" secondAttribute="trailing" id="hQW-Cl-LMg"/>
                             <constraint firstItem="6LW-AN-uG1" firstAttribute="leading" secondItem="jCO-PJ-Nnw" secondAttribute="leading" id="phg-by-Y3j"/>
-                            <constraint firstItem="heB-ZI-j7g" firstAttribute="leading" secondItem="jCO-PJ-Nnw" secondAttribute="leading" constant="40" id="wGb-CD-9Uw"/>
+                            <constraint firstItem="heB-ZI-j7g" firstAttribute="leading" secondItem="jCO-PJ-Nnw" secondAttribute="leading" constant="50" id="wGb-CD-9Uw"/>
                             <constraint firstItem="heB-ZI-j7g" firstAttribute="top" secondItem="6LW-AN-uG1" secondAttribute="bottom" constant="75" id="wcK-ae-dbI"/>
+                            <constraint firstItem="jCO-PJ-Nnw" firstAttribute="trailing" secondItem="heB-ZI-j7g" secondAttribute="trailing" constant="50" id="xdJ-iP-Gqs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jCO-PJ-Nnw"/>
                     </view>
@@ -997,7 +1005,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sTL-wU-UOU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623" y="3335"/>
+            <point key="canvasLocation" x="-623.1884057971015" y="3334.8214285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sCr-rO-e7A">
@@ -1150,15 +1158,6 @@
             <point key="canvasLocation" x="-623" y="3980"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="1.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="2.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="3.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="4.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="appbackground2-1" width="151.5" height="83"/>
-        <image name="borderapp" width="277.5" height="37"/>
-        <image name="play" catalog="system" width="60" height="64"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="dSY-hu-1W0"/>
@@ -1168,4 +1167,14 @@
         <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="2.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="4.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="appbackground2-1" width="151.5" height="83"/>
+        <image name="bluebg" width="512" height="288"/>
+        <image name="borderapp" width="277.5" height="37"/>
+        <image name="play" catalog="system" width="120" height="128"/>
+    </resources>
 </document>
