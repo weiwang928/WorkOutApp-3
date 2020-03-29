@@ -1124,9 +1124,81 @@
             </objects>
             <point key="canvasLocation" x="-623" y="3980"/>
         </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="aK6-7r-0SP">
+            <objects>
+                <viewController title="Home Page Controller" id="Nty-gx-uoF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="coP-MA-0bO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="XPM-de-8rk">
+                                <rect key="frame" x="0.0" y="-6" width="414" height="956"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiL-wd-hoD">
+                                <rect key="frame" x="86.5" y="621.5" width="241" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jd-hq-cqA">
+                                <rect key="frame" x="45" y="356" width="324" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="54r-kc-oD7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="zM8-IN-2g9"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="No Problem!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="57" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-Zk-htJ">
+                                <rect key="frame" x="41.5" y="529.5" width="331" height="70"/>
+                                <state key="normal" image="begin">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Gym?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lm1-Nc-bfO">
+                                <rect key="frame" x="145" y="311" width="124" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="9yj-fd-ne1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="XPM-de-8rk" secondAttribute="bottom" constant="-88" id="0ec-Ex-dfj"/>
+                            <constraint firstItem="XPM-de-8rk" firstAttribute="top" secondItem="coP-MA-0bO" secondAttribute="topMargin" constant="-50" id="2RD-1F-fm9"/>
+                            <constraint firstItem="lm1-Nc-bfO" firstAttribute="leading" secondItem="IaJ-oT-UBH" secondAttribute="leading" constant="145" id="2yp-IS-XZE"/>
+                            <constraint firstItem="lm1-Nc-bfO" firstAttribute="top" secondItem="IaJ-oT-UBH" secondAttribute="top" constant="267" id="4yX-nP-3hf"/>
+                            <constraint firstItem="7Jd-hq-cqA" firstAttribute="centerX" secondItem="GgQ-Zk-htJ" secondAttribute="centerX" id="Dmc-RM-dWP"/>
+                            <constraint firstItem="7Jd-hq-cqA" firstAttribute="top" secondItem="lm1-Nc-bfO" secondAttribute="bottom" constant="11" id="K6U-IC-qaT"/>
+                            <constraint firstItem="GgQ-Zk-htJ" firstAttribute="top" secondItem="7Jd-hq-cqA" secondAttribute="bottom" constant="86.5" id="TWF-m2-RoZ"/>
+                            <constraint firstItem="lm1-Nc-bfO" firstAttribute="centerX" secondItem="7Jd-hq-cqA" secondAttribute="centerX" id="Xaq-IH-gHZ"/>
+                            <constraint firstItem="lm1-Nc-bfO" firstAttribute="centerX" secondItem="coP-MA-0bO" secondAttribute="centerX" id="Y41-v2-Tbw"/>
+                            <constraint firstItem="XPM-de-8rk" firstAttribute="leading" secondItem="IaJ-oT-UBH" secondAttribute="leading" id="jcr-58-NY2"/>
+                            <constraint firstItem="EiL-wd-hoD" firstAttribute="top" secondItem="GgQ-Zk-htJ" secondAttribute="bottom" constant="22" id="muI-MV-LAw"/>
+                            <constraint firstItem="XPM-de-8rk" firstAttribute="centerX" secondItem="GgQ-Zk-htJ" secondAttribute="centerX" id="zVU-tv-G6y"/>
+                            <constraint firstItem="GgQ-Zk-htJ" firstAttribute="centerX" secondItem="EiL-wd-hoD" secondAttribute="centerX" id="zt6-DX-0bw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IaJ-oT-UBH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDi-MD-rvE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="3200"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XRY-hO-Qai"/>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
         <segue reference="WCb-33-rK1"/>
