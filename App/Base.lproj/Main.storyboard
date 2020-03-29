@@ -7,11 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Page Controller Scene-->
+        <!--Home Page Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController title="Home Page Controller Scene" id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home Page Controller" id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ex1-2Y-7sa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,14 +94,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="u1R-VN-n74"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="114" y="115"/>
         </scene>
-        <!--View Controller-->
+        <!--First Survey Page Controller-->
         <scene sceneID="OCR-RA-uue">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="82f-1F-rfA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="GC7-D4-a42" sceneMemberID="viewController">
+                <viewController title="First Survey Page Controller" id="GC7-D4-a42" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fbD-3u-dij" userLabel="Name">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,10 +118,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer Here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZL4-Ph-ezo">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer Here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZL4-Ph-ezo" userLabel="nameTextField">
                                 <rect key="frame" x="151.5" y="404" width="111" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="endEditing:" destination="GC7-D4-a42" eventType="editingDidEndOnExit" id="oaH-6G-LwW"/>
+                                    <action selector="textFieldPimaryAction:" destination="GC7-D4-a42" eventType="primaryActionTriggered" id="UAR-J9-gST"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRT-iu-pjL">
                                 <rect key="frame" x="40" y="768" width="40" height="30"/>
@@ -175,15 +178,18 @@
                         <viewLayoutGuide key="safeArea" id="fFx-nX-uhf"/>
                     </view>
                     <navigationItem key="navigationItem" id="FUp-Tr-UA8"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="ZL4-Ph-ezo" id="xws-aK-gqg"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="82f-1F-rfA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="112" y="760"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Page Survey Controller-->
         <scene sceneID="2mV-yk-lHY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xVD-Su-Ubs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="hrg-aA-Ymm" sceneMemberID="viewController">
+                <viewController id="hrg-aA-Ymm" customClass="SecondPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UHY-7w-lKc" userLabel="Gender">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,6 +218,9 @@
                                     <segment title="Male"/>
                                     <segment title="Female"/>
                                 </segments>
+                                <connections>
+                                    <action selector="switchAction:" destination="hrg-aA-Ymm" eventType="primaryActionTriggered" id="NBt-cC-4lF"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGw-yg-UE7">
                                 <rect key="frame" x="40" y="768" width="40" height="30"/>
@@ -256,15 +265,18 @@
                         <viewLayoutGuide key="safeArea" id="T58-2b-NE1"/>
                     </view>
                     <navigationItem key="navigationItem" id="WD5-XE-V4L"/>
+                    <connections>
+                        <outlet property="switch" destination="MDp-JR-aGn" id="QfB-ZV-T3n"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVD-Su-Ubs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="112" y="1405"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JnU-Ys-54I">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C1A-gO-6F9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="zvB-bu-eYw" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zvB-bu-eYw" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YGI-HM-34l" userLabel="Age">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,13 +349,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="Trv-nf-Mev"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C1A-gO-6F9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="45" y="2306"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iX5-bt-OXP">
             <objects>
-                <viewController id="m8q-Ex-574" sceneMemberID="viewController">
+                <viewController id="m8q-Ex-574" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gvy-Ur-KK2" userLabel="WeightHeight">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -462,7 +475,7 @@
         <!--View Controller-->
         <scene sceneID="o5h-ug-rZg">
             <objects>
-                <viewController id="aAA-KX-s5P" sceneMemberID="viewController">
+                <viewController id="aAA-KX-s5P" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gkq-2r-ncY" userLabel="PerWeek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -604,7 +617,7 @@
         <!--View Controller-->
         <scene sceneID="yQI-KV-2GC">
             <objects>
-                <viewController id="xBV-kA-NwU" sceneMemberID="viewController">
+                <viewController id="xBV-kA-NwU" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uNu-WV-kWf" userLabel="SpecificMuscles">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -697,7 +710,7 @@
         <!--View Controller-->
         <scene sceneID="c0o-wI-Vgl">
             <objects>
-                <viewController id="Apo-uF-NLK" sceneMemberID="viewController">
+                <viewController id="Apo-uF-NLK" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpL-02-2bi" userLabel="MuscleList">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -848,7 +861,7 @@
         <!--View Controller-->
         <scene sceneID="jhl-rk-BJT">
             <objects>
-                <viewController id="HhZ-cC-wQN" sceneMemberID="viewController">
+                <viewController id="HhZ-cC-wQN" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="psU-Ym-UZk" userLabel="End">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -912,7 +925,7 @@
         <!--View Controller-->
         <scene sceneID="bWW-36-CkV">
             <objects>
-                <viewController id="RWw-yC-m7A" sceneMemberID="viewController">
+                <viewController id="RWw-yC-m7A" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1iA-cJ-wWP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -973,7 +986,7 @@
         <!--View Controller-->
         <scene sceneID="sCr-rO-e7A">
             <objects>
-                <viewController id="xam-Ym-Tcd" sceneMemberID="viewController">
+                <viewController id="xam-Ym-Tcd" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FIN-es-esW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1134,9 +1147,9 @@
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
         <segue reference="jl3-8T-0KH"/>
-        <segue reference="TnH-UJ-yI7"/>
-        <segue reference="jvo-5k-8bc"/>
-        <segue reference="xNQ-5I-hzV"/>
+        <segue reference="EUo-WO-RaZ"/>
+        <segue reference="2tE-dV-QG8"/>
+        <segue reference="Agn-CK-ttB"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>
 </document>
