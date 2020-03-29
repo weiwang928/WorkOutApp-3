@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -580,10 +580,10 @@
             </objects>
             <point key="canvasLocation" x="-558" y="755"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth Page Survey Controller-->
         <scene sceneID="yQI-KV-2GC">
             <objects>
-                <viewController id="xBV-kA-NwU" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xBV-kA-NwU" customClass="SixthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uNu-WV-kWf" userLabel="SpecificMuscles">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -621,6 +621,9 @@
                                     <segment title="Yes"/>
                                     <segment title="No"/>
                                 </segments>
+                                <connections>
+                                    <action selector="switchTriggered:" destination="xBV-kA-NwU" eventType="primaryActionTriggered" id="LY8-62-GSo"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SG1-Mm-dG1">
                                 <rect key="frame" x="40" y="758" width="40" height="30"/>
@@ -668,15 +671,18 @@
                         <viewLayoutGuide key="safeArea" id="Mft-69-EV5"/>
                     </view>
                     <navigationItem key="navigationItem" id="sHO-GK-8AZ"/>
+                    <connections>
+                        <outlet property="switch" destination="SNK-Up-Qhc" id="adb-3i-jwT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kt2-Zs-7em" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-562" y="1400"/>
         </scene>
-        <!--View Controller-->
+        <!--Seventh Page Survey Controller-->
         <scene sceneID="c0o-wI-Vgl">
             <objects>
-                <viewController id="Apo-uF-NLK" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Seventh Page Survey Controller" id="Apo-uF-NLK" customClass="SeventhPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpL-02-2bi" userLabel="MuscleList">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -737,18 +743,33 @@
                             </progressView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUp-7z-4l8">
                                 <rect key="frame" x="127" y="483" width="51" height="31"/>
+                                <connections>
+                                    <action selector="armsTriggered:" destination="Apo-uF-NLK" eventType="primaryActionTriggered" id="L4M-5P-N3V"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSZ-cf-Gms">
                                 <rect key="frame" x="127" y="644" width="51" height="31"/>
+                                <connections>
+                                    <action selector="shoulderTriggered:" destination="Apo-uF-NLK" eventType="primaryActionTriggered" id="kVR-tO-a9b"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0e9-dK-ubJ">
                                 <rect key="frame" x="127" y="591" width="51" height="31"/>
+                                <connections>
+                                    <action selector="chestTriggered:" destination="Apo-uF-NLK" eventType="primaryActionTriggered" id="aOV-1n-ljD"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LnO-Ki-iQG">
                                 <rect key="frame" x="127" y="535" width="51" height="31"/>
+                                <connections>
+                                    <action selector="backTriggered:" destination="Apo-uF-NLK" eventType="primaryActionTriggered" id="lvu-82-d13"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crI-JY-HJG">
                                 <rect key="frame" x="127" y="432" width="51" height="31"/>
+                                <connections>
+                                    <action selector="absTriggered:" destination="Apo-uF-NLK" eventType="primaryActionTriggered" id="rbq-u5-3j7"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eN-Ct-ohF">
                                 <rect key="frame" x="335" y="758" width="39" height="30"/>
@@ -819,15 +840,22 @@
                         <viewLayoutGuide key="safeArea" id="YoM-o1-4UB"/>
                     </view>
                     <navigationItem key="navigationItem" id="zQu-Ti-74h"/>
+                    <connections>
+                        <outlet property="absSwitch" destination="crI-JY-HJG" id="g6j-Vf-VHd"/>
+                        <outlet property="armsSwitch" destination="PUp-7z-4l8" id="2d2-8g-WHH"/>
+                        <outlet property="backSwitch" destination="LnO-Ki-iQG" id="fa4-Sm-X1r"/>
+                        <outlet property="chestSwitch" destination="0e9-dK-ubJ" id="XbH-Yy-wii"/>
+                        <outlet property="shouldersSwitch" destination="VSZ-cf-Gms" id="2Na-Vv-Q13"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pgc-oB-Ppq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-623" y="2045"/>
         </scene>
-        <!--View Controller-->
+        <!--Eighth Page Survey Controller-->
         <scene sceneID="jhl-rk-BJT">
             <objects>
-                <viewController id="HhZ-cC-wQN" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Eighth Page Survey Controller" id="HhZ-cC-wQN" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="psU-Ym-UZk" userLabel="End">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1039,22 +1067,22 @@
             <point key="canvasLocation" x="-623" y="3980"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="2.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="3.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="4.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="appbackground2-1" width="151.5" height="83"/>
+        <image name="borderapp" width="277.5" height="37"/>
+        <image name="play" catalog="system" width="60" height="64"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="p1m-ab-tRO"/>
+        <segue reference="y69-Gc-yAd"/>
         <segue reference="gBP-fx-2ru"/>
-        <segue reference="WCb-33-rK1"/>
+        <segue reference="jl3-8T-0KH"/>
         <segue reference="EUo-WO-RaZ"/>
         <segue reference="jvo-5k-8bc"/>
         <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>
-    <resources>
-        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="2.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="3.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="4.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="appbackground2-1" width="151.5" height="83"/>
-        <image name="borderapp" width="277.5" height="37"/>
-        <image name="play" catalog="system" width="120" height="128"/>
-    </resources>
 </document>
