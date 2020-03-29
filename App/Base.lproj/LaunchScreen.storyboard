@@ -20,19 +20,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="aldrickjohansignature" translatesAutoresizingMaskIntoConstraints="NO" id="thc-qz-QSD">
-                                <rect key="frame" x="55" y="295" width="287" height="50"/>
+                                <rect key="frame" x="55" y="262" width="287" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="renzosig" translatesAutoresizingMaskIntoConstraints="NO" id="IlT-QA-bRC">
-                                <rect key="frame" x="20" y="389" width="394" height="94"/>
+                                <rect key="frame" x="10" y="345" width="394" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="weiwangsig" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-Dc-dkO">
-                                <rect key="frame" x="59" y="527" width="279" height="80"/>
+                                <rect key="frame" x="59" y="460" width="279" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yaseensig" translatesAutoresizingMaskIntoConstraints="NO" id="reI-6E-DLa">
-                                <rect key="frame" x="11" y="606" width="374" height="151"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="X" translatesAutoresizingMaskIntoConstraints="NO" id="jCp-yC-6jv">
+                                <rect key="frame" x="179" y="696" width="39" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yaseenSig" translatesAutoresizingMaskIntoConstraints="NO" id="w6J-eW-2z3">
+                                <rect key="frame" x="23" y="564" width="350" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -46,10 +50,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="X" width="39" height="43"/>
         <image name="aldrickjohansignature" width="287" height="50"/>
         <image name="loading" width="920" height="930"/>
         <image name="renzosig" width="855" height="105"/>
         <image name="weiwangsig" width="279" height="80"/>
-        <image name="yaseensig" width="590" height="84"/>
+        <image name="yaseenSig" width="350" height="87"/>
     </resources>
 </document>
