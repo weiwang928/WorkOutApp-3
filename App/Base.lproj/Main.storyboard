@@ -302,7 +302,10 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer Here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="89y-Cc-XMs">
                                 <rect key="frame" x="151.5" y="404" width="111" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="typeInTextField:" destination="zvB-bu-eYw" eventType="primaryActionTriggered" id="dci-0M-lhr"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoO-Kh-eDK">
                                 <rect key="frame" x="40" y="768" width="40" height="30"/>
@@ -348,15 +351,18 @@
                         <viewLayoutGuide key="safeArea" id="xwV-JH-grh"/>
                     </view>
                     <navigationItem key="navigationItem" id="Trv-nf-Mev"/>
+                    <connections>
+                        <outlet property="answerField" destination="89y-Cc-XMs" id="5oy-v8-peZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C1A-gO-6F9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="45" y="2306"/>
         </scene>
-        <!--View Controller-->
+        <!--Forth Page Survey Controller-->
         <scene sceneID="iX5-bt-OXP">
             <objects>
-                <viewController id="m8q-Ex-574" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m8q-Ex-574" customClass="ForthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gvy-Ur-KK2" userLabel="WeightHeight">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -391,12 +397,18 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Pounds" borderStyle="roundedRect" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sor-fv-pbW">
                                 <rect key="frame" x="196" y="417" width="113" height="38"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="weightAnswer:" destination="m8q-Ex-574" eventType="primaryActionTriggered" id="XrY-XD-ga3"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Inches" borderStyle="roundedRect" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YA1-Yd-91A">
                                 <rect key="frame" x="196" y="471" width="113" height="30.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="heightAnswer:" destination="m8q-Ex-574" eventType="primaryActionTriggered" id="ajE-vl-fke"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAl-5y-U3D">
                                 <rect key="frame" x="109" y="474.5" width="61" height="23.5"/>
@@ -467,6 +479,10 @@
                         <viewLayoutGuide key="safeArea" id="aS9-MM-i76"/>
                     </view>
                     <navigationItem key="navigationItem" id="nuR-EK-Bkd"/>
+                    <connections>
+                        <outlet property="heightField" destination="YA1-Yd-91A" id="DFB-Tz-9Km"/>
+                        <outlet property="weightField" destination="sor-fv-pbW" id="sON-WJ-0Od"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvl-Em-aTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1146,9 +1162,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
-        <segue reference="jl3-8T-0KH"/>
+        <segue reference="WCb-33-rK1"/>
         <segue reference="TnH-UJ-yI7"/>
-        <segue reference="2tE-dV-QG8"/>
+        <segue reference="jvo-5k-8bc"/>
         <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>

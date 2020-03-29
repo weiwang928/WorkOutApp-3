@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func textFieldPimaryAction(_ sender: UITextField) {
-        name = nameTextField.text!
+        name = nameTextField.text ?? ""
     }
 
     @IBAction func endEditing(_ sender: UITextField) {
