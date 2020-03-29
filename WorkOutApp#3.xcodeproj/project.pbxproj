@@ -11,6 +11,9 @@
 		444093C12430FC470038C89D /* ThirdPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093C02430FC470038C89D /* ThirdPageSurveyController.swift */; };
 		444093C3243102440038C89D /* ForthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093C2243102440038C89D /* ForthPageSurveyController.swift */; };
 		444093C52431063B0038C89D /* FifthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093C42431063B0038C89D /* FifthPageSurveyController.swift */; };
+		444093C724310EAE0038C89D /* SixthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093C624310EAE0038C89D /* SixthPageSurveyController.swift */; };
+		444093C92431114A0038C89D /* SeventhPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093C82431114A0038C89D /* SeventhPageSurveyController.swift */; };
+		444093CB243116400038C89D /* EighthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444093CA243116400038C89D /* EighthPageSurveyController.swift */; };
 		44D00C5C243043F80099677F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5B243043F80099677F /* AppDelegate.swift */; };
 		44D00C5E243043F80099677F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5D243043F80099677F /* SceneDelegate.swift */; };
 		44D00C60243043F80099677F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5F243043F80099677F /* ViewController.swift */; };
@@ -44,6 +47,9 @@
 		444093C02430FC470038C89D /* ThirdPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageSurveyController.swift; sourceTree = "<group>"; };
 		444093C2243102440038C89D /* ForthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthPageSurveyController.swift; sourceTree = "<group>"; };
 		444093C42431063B0038C89D /* FifthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPageSurveyController.swift; sourceTree = "<group>"; };
+		444093C624310EAE0038C89D /* SixthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthPageSurveyController.swift; sourceTree = "<group>"; };
+		444093C82431114A0038C89D /* SeventhPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhPageSurveyController.swift; sourceTree = "<group>"; };
+		444093CA243116400038C89D /* EighthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthPageSurveyController.swift; sourceTree = "<group>"; };
 		44D00C58243043F80099677F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D00C5B243043F80099677F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D00C5D243043F80099677F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				444093C02430FC470038C89D /* ThirdPageSurveyController.swift */,
 				444093C2243102440038C89D /* ForthPageSurveyController.swift */,
 				444093C42431063B0038C89D /* FifthPageSurveyController.swift */,
+				444093C624310EAE0038C89D /* SixthPageSurveyController.swift */,
+				444093C82431114A0038C89D /* SeventhPageSurveyController.swift */,
+				444093CA243116400038C89D /* EighthPageSurveyController.swift */,
 				44D00C5F243043F80099677F /* ViewController.swift */,
 				44D00C61243043F80099677F /* Main.storyboard */,
 				D5DA6DDE24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard */,
@@ -275,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444093CB243116400038C89D /* EighthPageSurveyController.swift in Sources */,
 				444093BF2430EF020038C89D /* SecondPageSurveyController.swift in Sources */,
+				444093C724310EAE0038C89D /* SixthPageSurveyController.swift in Sources */,
 				444093C52431063B0038C89D /* FifthPageSurveyController.swift in Sources */,
+				444093C92431114A0038C89D /* SeventhPageSurveyController.swift in Sources */,
 				44D00C60243043F80099677F /* ViewController.swift in Sources */,
 				444093C3243102440038C89D /* ForthPageSurveyController.swift in Sources */,
 				44D00C5C243043F80099677F /* AppDelegate.swift in Sources */,
