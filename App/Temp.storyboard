@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Page Controller-->
+        <scene sceneID="WKT-YE-Pg3">
+            <objects>
+                <viewController title="Home Page Controller" id="mdw-FB-izM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NVw-fX-x06">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="Csg-LK-Sq3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC3-sQ-0JX">
+                                <rect key="frame" x="86.5" y="597.5" width="241" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pud-hl-jcp">
+                                <rect key="frame" x="26" y="343" width="362" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="9NH-l7-aQ5"/>
+                                    <constraint firstAttribute="height" constant="87" id="hDH-pM-Vx7"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="No Problem!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="63" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pk-bd-zg4">
+                                <rect key="frame" x="42" y="508" width="330" height="70"/>
+                                <state key="normal" image="begin"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJy-D7-OBd">
+                                <rect key="frame" x="102" y="284" width="210" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="jw1-y4-vA6"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="No Gym?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="42" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Csg-LK-Sq3" firstAttribute="centerX" secondItem="pud-hl-jcp" secondAttribute="centerX" id="05v-Xs-dbp"/>
+                            <constraint firstItem="5pk-bd-zg4" firstAttribute="centerX" secondItem="GC3-sQ-0JX" secondAttribute="centerX" id="0Wf-EN-J5e"/>
+                            <constraint firstItem="wJy-D7-OBd" firstAttribute="leading" secondItem="pr1-wZ-Gsh" secondAttribute="leading" constant="102" id="0p5-bV-P9z"/>
+                            <constraint firstItem="5pk-bd-zg4" firstAttribute="leading" secondItem="pr1-wZ-Gsh" secondAttribute="leading" constant="42" id="6wd-TT-nhB"/>
+                            <constraint firstItem="5pk-bd-zg4" firstAttribute="top" secondItem="pud-hl-jcp" secondAttribute="bottom" constant="78" id="AuA-8U-PQv"/>
+                            <constraint firstItem="wJy-D7-OBd" firstAttribute="top" secondItem="pr1-wZ-Gsh" secondAttribute="top" constant="240" id="M32-6d-oya"/>
+                            <constraint firstItem="Csg-LK-Sq3" firstAttribute="top" secondItem="NVw-fX-x06" secondAttribute="topMargin" constant="-44" id="OAi-QR-fUf"/>
+                            <constraint firstItem="wJy-D7-OBd" firstAttribute="centerX" secondItem="NVw-fX-x06" secondAttribute="centerX" id="R6F-mH-RD7"/>
+                            <constraint firstItem="pud-hl-jcp" firstAttribute="centerX" secondItem="5pk-bd-zg4" secondAttribute="centerX" id="Unn-Gp-Y5X"/>
+                            <constraint firstItem="pud-hl-jcp" firstAttribute="top" secondItem="wJy-D7-OBd" secondAttribute="bottom" constant="8" id="W1a-po-lif"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Csg-LK-Sq3" secondAttribute="bottom" constant="-88" id="WnP-s2-TM2"/>
+                            <constraint firstItem="Csg-LK-Sq3" firstAttribute="leading" secondItem="pr1-wZ-Gsh" secondAttribute="leading" id="Z5o-Fg-e3q"/>
+                            <constraint firstItem="GC3-sQ-0JX" firstAttribute="top" secondItem="5pk-bd-zg4" secondAttribute="bottom" constant="19.5" id="kGZ-AZ-kIE"/>
+                            <constraint firstItem="pud-hl-jcp" firstAttribute="leading" secondItem="pr1-wZ-Gsh" secondAttribute="leading" constant="26" id="nBR-fC-WEr"/>
+                            <constraint firstItem="wJy-D7-OBd" firstAttribute="centerX" secondItem="pud-hl-jcp" secondAttribute="centerX" id="wYS-Vs-4KR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pr1-wZ-Gsh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZD-cK-xdB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appbackground2-1" width="151.5" height="83"/>
+        <image name="begin" width="331" height="70"/>
+    </resources>
+</document>

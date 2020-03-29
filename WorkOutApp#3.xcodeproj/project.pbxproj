@@ -22,6 +22,7 @@
 		44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C66243043F90099677F /* LaunchScreen.storyboard */; };
 		44D00C73243043F90099677F /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C72243043F90099677F /* testTests.swift */; };
 		44D00C7E243043F90099677F /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C7D243043F90099677F /* testUITests.swift */; };
+		C3BBF33B2431100300C35F13 /* Temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BBF33A2431100300C35F13 /* Temp.storyboard */; };
 		D5DA6DDF24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA6DDE24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		44D00C79243043F90099677F /* WorkOutApp#3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorkOutApp#3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D00C7D243043F90099677F /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		44D00C7F243043F90099677F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BBF33A2431100300C35F13 /* Temp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Temp.storyboard; sourceTree = "<group>"; };
 		D5DA6DDE24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiscussionBoardStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				44D00C64243043F90099677F /* Assets.xcassets */,
 				44D00C66243043F90099677F /* LaunchScreen.storyboard */,
 				44D00C69243043F90099677F /* Info.plist */,
+				C3BBF33A2431100300C35F13 /* Temp.storyboard */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */,
 				44D00C65243043F90099677F /* Assets.xcassets in Resources */,
 				44D00C63243043F80099677F /* Main.storyboard in Resources */,
+				C3BBF33B2431100300C35F13 /* Temp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
