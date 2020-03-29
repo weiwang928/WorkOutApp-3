@@ -25,32 +25,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSs-hX-ixx">
-                                <rect key="frame" x="45" y="316" width="324" height="87"/>
+                                <rect key="frame" x="45" y="312" width="324" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="Wfr-Yt-pHf"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="YBW-am-Oxg"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="No Gym?">
+                                    <fragment content="No Problem!">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="72" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="57" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you been getting lazier and overall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq8-Ke-IR9">
-                                <rect key="frame" x="54.5" y="411" width="305" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="worse mentally?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulo-nb-wj2">
-                                <rect key="frame" x="145" y="439.5" width="124" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8c-4P-BDP">
@@ -64,34 +52,31 @@
                                     <segue destination="GC7-D4-a42" kind="show" id="Zft-uM-RMd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*insert date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06h-e7-p4x">
-                                <rect key="frame" x="162" y="281" width="90" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Gym?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq8-Ke-IR9">
+                                <rect key="frame" x="145" y="267" width="124" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="eYI-ua-9qk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="IPk-WH-IL9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" id="6Wt-fZ-KJK"/>
-                            <constraint firstItem="06h-e7-p4x" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="8NA-QS-2BX"/>
-                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="centerY" secondItem="ex1-2Y-7sa" secondAttribute="centerY" id="9z5-Jh-yB3"/>
-                            <constraint firstItem="Ulo-nb-wj2" firstAttribute="top" secondItem="wq8-Ke-IR9" secondAttribute="bottom" constant="8" id="CnH-y3-MpE"/>
-                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="8" id="DKx-ye-4JU"/>
-                            <constraint firstItem="OSs-hX-ixx" firstAttribute="top" secondItem="06h-e7-p4x" secondAttribute="bottom" constant="14" id="DkS-zP-kXH"/>
-                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="IVW-PY-z5g"/>
-                            <constraint firstItem="Ulo-nb-wj2" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="J9u-GQ-jSU"/>
-                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="8" id="JKB-W9-ba3"/>
-                            <constraint firstItem="sdX-YN-Hba" firstAttribute="top" secondItem="t8c-4P-BDP" secondAttribute="bottom" constant="45" id="PAI-Os-1yf"/>
-                            <constraint firstItem="sdX-YN-Hba" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="RUr-32-ied"/>
-                            <constraint firstItem="IPk-WH-IL9" firstAttribute="centerX" secondItem="t8c-4P-BDP" secondAttribute="centerX" id="ZEn-RL-O3w"/>
-                            <constraint firstItem="IPk-WH-IL9" firstAttribute="top" secondItem="hvk-12-N2b" secondAttribute="top" constant="-50" id="mgI-xL-PhE"/>
-                            <constraint firstItem="Ulo-nb-wj2" firstAttribute="top" secondItem="wq8-Ke-IR9" secondAttribute="bottom" constant="8" id="mna-Qa-bo7"/>
-                            <constraint firstItem="t8c-4P-BDP" firstAttribute="top" secondItem="Ulo-nb-wj2" secondAttribute="bottom" constant="25" id="sOJ-FH-LNP"/>
-                            <constraint firstItem="OSs-hX-ixx" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="uJV-OD-amX"/>
-                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="8" id="uV6-5Y-Hqz"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="IPk-WH-IL9" secondAttribute="bottom" constant="-88" id="vdP-VZ-sZA"/>
-                            <constraint firstItem="t8c-4P-BDP" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="xWv-qm-8Pg"/>
+                            <constraint firstItem="t8c-4P-BDP" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="86.5" id="1aZ-h0-91k"/>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="top" secondItem="ex1-2Y-7sa" secondAttribute="topMargin" constant="-50" id="3Ky-1h-KTz"/>
+                            <constraint firstItem="sdX-YN-Hba" firstAttribute="top" secondItem="t8c-4P-BDP" secondAttribute="bottom" constant="45" id="4LG-nZ-64a"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IPk-WH-IL9" secondAttribute="bottom" constant="-88" id="5nB-tq-FkG"/>
+                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" constant="145" id="BO1-KC-Tcg"/>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" id="D4a-pY-hjX"/>
+                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="centerX" secondItem="OSs-hX-ixx" secondAttribute="centerX" id="GX0-PE-VsD"/>
+                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="SzX-I5-M2h"/>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="centerX" secondItem="t8c-4P-BDP" secondAttribute="centerX" id="Y8B-bY-3Fr"/>
+                            <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="hvk-12-N2b" secondAttribute="top" constant="267" id="cq7-G2-WPp"/>
+                            <constraint firstItem="OSs-hX-ixx" firstAttribute="centerX" secondItem="t8c-4P-BDP" secondAttribute="centerX" id="jkk-Pl-deU"/>
+                            <constraint firstItem="t8c-4P-BDP" firstAttribute="centerX" secondItem="sdX-YN-Hba" secondAttribute="centerX" id="kX8-cm-wBk"/>
+                            <constraint firstItem="OSs-hX-ixx" firstAttribute="top" secondItem="wq8-Ke-IR9" secondAttribute="bottom" constant="11" id="qwA-eg-874"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hvk-12-N2b"/>
                     </view>
