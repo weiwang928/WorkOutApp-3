@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
         
+    /*
     var bottomCustomButton = CustomButton()
     
     
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
     @objc func bottomButtonTapped() {
         bottomCustomButton.shake()
     }
-    
+    */
 
     @IBOutlet weak var nameTextField: UITextField!
     var name: String = ""

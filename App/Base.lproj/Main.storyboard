@@ -273,10 +273,10 @@
             </objects>
             <point key="canvasLocation" x="112" y="1405"/>
         </scene>
-        <!--View Controller-->
+        <!--Third Survey Page Controller-->
         <scene sceneID="JnU-Ys-54I">
             <objects>
-                <viewController id="zvB-bu-eYw" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Third Survey Page Controller" id="zvB-bu-eYw" customClass="ThirdPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YGI-HM-34l" userLabel="Age">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1147,9 +1147,9 @@
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
         <segue reference="jl3-8T-0KH"/>
-        <segue reference="EUo-WO-RaZ"/>
+        <segue reference="TnH-UJ-yI7"/>
         <segue reference="2tE-dV-QG8"/>
-        <segue reference="Agn-CK-ttB"/>
+        <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>
 </document>
