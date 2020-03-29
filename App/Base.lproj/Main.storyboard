@@ -488,10 +488,10 @@
             </objects>
             <point key="canvasLocation" x="-557" y="110"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth Page Survey Controller-->
         <scene sceneID="o5h-ug-rZg">
             <objects>
-                <viewController id="aAA-KX-s5P" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Fifth Page Survey Controller" id="aAA-KX-s5P" customClass="FifthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gkq-2r-ncY" userLabel="PerWeek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1161,9 +1161,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="p1m-ab-tRO"/>
-        <segue reference="gBP-fx-2ru"/>
+        <segue reference="dSY-hu-1W0"/>
         <segue reference="WCb-33-rK1"/>
-        <segue reference="TnH-UJ-yI7"/>
+        <segue reference="EUo-WO-RaZ"/>
         <segue reference="jvo-5k-8bc"/>
         <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
