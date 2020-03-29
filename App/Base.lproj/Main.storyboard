@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="-50" width="414" height="946"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdX-YN-Hba">
-                                <rect key="frame" x="86.5" y="578.5" width="241" height="20.5"/>
+                                <rect key="frame" x="86.5" y="577.5" width="241" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,15 +41,13 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8c-4P-BDP">
-                                <rect key="frame" x="88.5" y="485.5" width="237" height="48"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Get Back In Shape">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8c-4P-BDP">
+                                <rect key="frame" x="41.5" y="485.5" width="331" height="70"/>
+                                <state key="normal" image="begin">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GC7-D4-a42" kind="show" id="Zft-uM-RMd"/>
+                                    <segue destination="GC7-D4-a42" kind="show" id="0SV-2k-cOj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Gym?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq8-Ke-IR9">
@@ -66,7 +64,7 @@
                         <constraints>
                             <constraint firstItem="t8c-4P-BDP" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="86.5" id="1aZ-h0-91k"/>
                             <constraint firstItem="IPk-WH-IL9" firstAttribute="top" secondItem="ex1-2Y-7sa" secondAttribute="topMargin" constant="-50" id="3Ky-1h-KTz"/>
-                            <constraint firstItem="sdX-YN-Hba" firstAttribute="top" secondItem="t8c-4P-BDP" secondAttribute="bottom" constant="45" id="4LG-nZ-64a"/>
+                            <constraint firstItem="sdX-YN-Hba" firstAttribute="top" secondItem="t8c-4P-BDP" secondAttribute="bottom" constant="22" id="4LG-nZ-64a"/>
                             <constraint firstAttribute="bottomMargin" secondItem="IPk-WH-IL9" secondAttribute="bottom" constant="-88" id="5nB-tq-FkG"/>
                             <constraint firstItem="wq8-Ke-IR9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" constant="145" id="BO1-KC-Tcg"/>
                             <constraint firstItem="IPk-WH-IL9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" id="D4a-pY-hjX"/>
@@ -759,18 +757,23 @@
                             </progressView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUp-7z-4l8">
                                 <rect key="frame" x="127" y="483" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSZ-cf-Gms">
                                 <rect key="frame" x="127" y="644" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0e9-dK-ubJ">
                                 <rect key="frame" x="127" y="591" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LnO-Ki-iQG">
                                 <rect key="frame" x="127" y="535" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crI-JY-HJG">
                                 <rect key="frame" x="127" y="432" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eN-Ct-ohF">
                                 <rect key="frame" x="335" y="758" width="39" height="30"/>
@@ -871,10 +874,6 @@
                                     <segue destination="Apo-uF-NLK" kind="show" id="p1m-ab-tRO"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="yC0-3Z-iY3">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continue to your personalized" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSO-yQ-URS">
                                 <rect key="frame" x="77.5" y="409" width="259" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -887,6 +886,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="yC0-3Z-iY3">
+                                <rect key="frame" x="132" y="772" width="150" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1123,13 +1126,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="XRY-hO-Qai"/>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
-        <segue reference="jl3-8T-0KH"/>
+        <segue reference="WCb-33-rK1"/>
         <segue reference="TnH-UJ-yI7"/>
-        <segue reference="2tE-dV-QG8"/>
-        <segue reference="xNQ-5I-hzV"/>
-        <segue reference="Zft-uM-RMd"/>
+        <segue reference="jvo-5k-8bc"/>
+        <segue reference="Agn-CK-ttB"/>
+        <segue reference="0SV-2k-cOj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="121"/>
@@ -1137,6 +1141,7 @@
         <image name="3.circle.fill" catalog="system" width="128" height="121"/>
         <image name="4.circle.fill" catalog="system" width="128" height="121"/>
         <image name="appbackground2-1" width="151.5" height="83"/>
+        <image name="begin" width="331" height="70"/>
         <image name="borderapp" width="277.5" height="37"/>
         <image name="play" catalog="system" width="120" height="128"/>
     </resources>
