@@ -16,7 +16,6 @@
 		44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C66243043F90099677F /* LaunchScreen.storyboard */; };
 		44D00C73243043F90099677F /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C72243043F90099677F /* testTests.swift */; };
 		44D00C7E243043F90099677F /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C7D243043F90099677F /* testUITests.swift */; };
-		D51C8C562430E6D0002DC42E /* DiscussionStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51C8C552430E6CF002DC42E /* DiscussionStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,7 +240,6 @@
 				44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */,
 				44D00C65243043F90099677F /* Assets.xcassets in Resources */,
 				44D00C63243043F80099677F /* Main.storyboard in Resources */,
-				D51C8C562430E6D0002DC42E /* DiscussionStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

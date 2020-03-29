@@ -9,17 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var myWebView: UIWebView!
-    
+        
     var bottomCustomButton = CustomButton()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupBottomButtonConstraints()
-        addActionToBottomButton()
-        getVideo(videoCode: "c2yrVRtkir0")
-    }
     
     func setupBottomButtonConstraints() {
         view.addSubview(bottomCustomButton)
@@ -38,11 +30,7 @@ class ViewController: UIViewController {
         bottomCustomButton.shake()
     }
     
-    func getVideo(videoCode:String) {
-        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
-        myWebView.loadRequest(URLRequest(url: url!))
-        
-    }
+
 
 
 }
