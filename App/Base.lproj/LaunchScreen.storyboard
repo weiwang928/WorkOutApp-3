@@ -15,30 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="mHI-T6-cfg">
-                                <rect key="frame" x="-275" y="44" width="920" height="930"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="aldrickjohansignature" translatesAutoresizingMaskIntoConstraints="NO" id="thc-qz-QSD">
-                                <rect key="frame" x="55" y="262" width="287" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="renzosig" translatesAutoresizingMaskIntoConstraints="NO" id="IlT-QA-bRC">
-                                <rect key="frame" x="10" y="345" width="394" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="weiwangsig" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-Dc-dkO">
-                                <rect key="frame" x="59" y="460" width="279" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="X" translatesAutoresizingMaskIntoConstraints="NO" id="jCp-yC-6jv">
-                                <rect key="frame" x="179" y="696" width="39" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yaseenSig" translatesAutoresizingMaskIntoConstraints="NO" id="w6J-eW-2z3">
-                                <rect key="frame" x="23" y="564" width="350" height="87"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="nogymnoexcuse" translatesAutoresizingMaskIntoConstraints="NO" id="qPM-M6-bx8">
+                                <rect key="frame" x="-30" y="208" width="442" height="443"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -52,11 +30,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="X" width="39" height="43"/>
-        <image name="aldrickjohansignature" width="287" height="50"/>
-        <image name="loading" width="920" height="930"/>
-        <image name="renzosig" width="855" height="105"/>
-        <image name="weiwangsig" width="279" height="80"/>
-        <image name="yaseenSig" width="350" height="87"/>
+        <image name="nogymnoexcuse" width="700" height="714"/>
     </resources>
 </document>
