@@ -1157,6 +1157,89 @@
             </objects>
             <point key="canvasLocation" x="-623" y="3980"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="QKU-90-VAP">
+            <objects>
+                <viewController id="2BJ-S4-PN6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wML-02-NS8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluebg" translatesAutoresizingMaskIntoConstraints="NO" id="882-4t-Lvs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequently Asked Questions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHR-qC-h0h">
+                                <rect key="frame" x="50" y="94" width="314" height="95.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="cIK-Ok-Zkm">
+                                <rect key="frame" x="50" y="239.5" width="314" height="572.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is this app?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvV-nA-7tL">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAJ-Ii-vv3">
+                                        <rect key="frame" x="0.0" y="65.5" width="314" height="101.5"/>
+                                        <string key="text">This app is a revolutionary, student-developed application for people who are stuck at home due to the Coronavirus quarantine but want to remain physically active.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do I use this app?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HY5-l0-y0O">
+                                        <rect key="frame" x="0.0" y="212.5" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQa-px-8lL">
+                                        <rect key="frame" x="0.0" y="278" width="314" height="81.5"/>
+                                        <string key="text">After filling out a quick survey, you'll be greeted with a unique workout regimen, complete with walkthrough videos and descriptions.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do I do if I have any questions/concerns?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uul-3l-evc">
+                                        <rect key="frame" x="0.0" y="405" width="314" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shj-9e-RBb">
+                                        <rect key="frame" x="0.0" y="491" width="314" height="81.5"/>
+                                        <string key="text">Built into the app is a Discussion Board, so community members can ask and answer questions! Additionally, you may contact any of the app developers.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zHR-qC-h0h" firstAttribute="top" secondItem="eLn-vn-DSN" secondAttribute="top" constant="50" id="8vD-rq-Bgc"/>
+                            <constraint firstItem="eLn-vn-DSN" firstAttribute="bottom" secondItem="cIK-Ok-Zkm" secondAttribute="bottom" constant="50" id="Fdf-of-8dW"/>
+                            <constraint firstItem="882-4t-Lvs" firstAttribute="top" secondItem="eLn-vn-DSN" secondAttribute="top" constant="-44" id="Pon-rn-eTX"/>
+                            <constraint firstItem="zHR-qC-h0h" firstAttribute="leading" secondItem="eLn-vn-DSN" secondAttribute="leading" constant="50" id="Z6u-r3-puY"/>
+                            <constraint firstItem="eLn-vn-DSN" firstAttribute="trailing" secondItem="zHR-qC-h0h" secondAttribute="trailing" constant="50" id="dKs-Gu-Oys"/>
+                            <constraint firstItem="eLn-vn-DSN" firstAttribute="trailing" secondItem="cIK-Ok-Zkm" secondAttribute="trailing" constant="50" id="eqe-r9-47G"/>
+                            <constraint firstItem="eLn-vn-DSN" firstAttribute="bottom" secondItem="882-4t-Lvs" secondAttribute="bottom" constant="-34" id="fX2-4a-XA9"/>
+                            <constraint firstItem="cIK-Ok-Zkm" firstAttribute="top" secondItem="zHR-qC-h0h" secondAttribute="bottom" constant="50" id="lwp-ND-1sa"/>
+                            <constraint firstItem="cIK-Ok-Zkm" firstAttribute="leading" secondItem="eLn-vn-DSN" secondAttribute="leading" constant="50" id="nPC-nj-yV6"/>
+                            <constraint firstItem="eLn-vn-DSN" firstAttribute="trailing" secondItem="882-4t-Lvs" secondAttribute="trailing" id="pt6-t1-TSf"/>
+                            <constraint firstItem="882-4t-Lvs" firstAttribute="leading" secondItem="eLn-vn-DSN" secondAttribute="leading" id="rrT-gB-xXB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eLn-vn-DSN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Wa-RZ-qBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15.942028985507248" y="3334.8214285714284"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="p1m-ab-tRO"/>
