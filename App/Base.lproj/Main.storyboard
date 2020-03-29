@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="IPk-WH-IL9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="IPk-WH-IL9">
+                                <rect key="frame" x="0.0" y="-50" width="414" height="946"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdX-YN-Hba">
                                 <rect key="frame" x="86.5" y="578.5" width="241" height="20.5"/>
@@ -74,6 +73,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="leading" secondItem="hvk-12-N2b" secondAttribute="leading" id="6Wt-fZ-KJK"/>
                             <constraint firstItem="06h-e7-p4x" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="8NA-QS-2BX"/>
                             <constraint firstItem="wq8-Ke-IR9" firstAttribute="centerY" secondItem="ex1-2Y-7sa" secondAttribute="centerY" id="9z5-Jh-yB3"/>
                             <constraint firstItem="Ulo-nb-wj2" firstAttribute="top" secondItem="wq8-Ke-IR9" secondAttribute="bottom" constant="8" id="CnH-y3-MpE"/>
@@ -84,10 +84,13 @@
                             <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="8" id="JKB-W9-ba3"/>
                             <constraint firstItem="sdX-YN-Hba" firstAttribute="top" secondItem="t8c-4P-BDP" secondAttribute="bottom" constant="45" id="PAI-Os-1yf"/>
                             <constraint firstItem="sdX-YN-Hba" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="RUr-32-ied"/>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="centerX" secondItem="t8c-4P-BDP" secondAttribute="centerX" id="ZEn-RL-O3w"/>
+                            <constraint firstItem="IPk-WH-IL9" firstAttribute="top" secondItem="hvk-12-N2b" secondAttribute="top" constant="-50" id="mgI-xL-PhE"/>
                             <constraint firstItem="Ulo-nb-wj2" firstAttribute="top" secondItem="wq8-Ke-IR9" secondAttribute="bottom" constant="8" id="mna-Qa-bo7"/>
                             <constraint firstItem="t8c-4P-BDP" firstAttribute="top" secondItem="Ulo-nb-wj2" secondAttribute="bottom" constant="25" id="sOJ-FH-LNP"/>
                             <constraint firstItem="OSs-hX-ixx" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="uJV-OD-amX"/>
                             <constraint firstItem="wq8-Ke-IR9" firstAttribute="top" secondItem="OSs-hX-ixx" secondAttribute="bottom" constant="8" id="uV6-5Y-Hqz"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IPk-WH-IL9" secondAttribute="bottom" constant="-88" id="vdP-VZ-sZA"/>
                             <constraint firstItem="t8c-4P-BDP" firstAttribute="centerX" secondItem="ex1-2Y-7sa" secondAttribute="centerX" id="xWv-qm-8Pg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hvk-12-N2b"/>
@@ -937,15 +940,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="heB-ZI-j7g" userLabel="StackView">
-                                <rect key="frame" x="40" y="217" width="269" height="522"/>
+                                <rect key="frame" x="40" y="217" width="269" height="523.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for a post..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-dt-IKm" userLabel="Search Bar">
-                                        <rect key="frame" x="0.0" y="0.0" width="269" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="269" height="45.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLI-6v-NRa">
-                                        <rect key="frame" x="0.0" y="133" width="269" height="150"/>
+                                        <rect key="frame" x="0.0" y="134.5" width="269" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="77U-2c-Sno"/>
                                         </constraints>
@@ -955,7 +958,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-GJ-LsC">
-                                        <rect key="frame" x="0.0" y="372" width="269" height="150"/>
+                                        <rect key="frame" x="0.0" y="373.5" width="269" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="hga-GX-Otd"/>
                                         </constraints>
@@ -1134,15 +1137,6 @@
             <point key="canvasLocation" x="-623" y="3980"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="1.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="2.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="3.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="4.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="appbackground2-1" width="151.5" height="83"/>
-        <image name="borderapp" width="277.5" height="37"/>
-        <image name="play" catalog="system" width="60" height="64"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
@@ -1152,4 +1146,13 @@
         <segue reference="xNQ-5I-hzV"/>
         <segue reference="Zft-uM-RMd"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="2.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="4.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="appbackground2-1" width="151.5" height="83"/>
+        <image name="borderapp" width="277.5" height="37"/>
+        <image name="play" catalog="system" width="120" height="128"/>
+    </resources>
 </document>
