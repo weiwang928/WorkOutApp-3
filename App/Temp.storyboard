@@ -45,6 +45,13 @@
                                 <rect key="frame" x="42" y="508" width="330" height="70"/>
                                 <state key="normal" image="begin"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNS-GL-cHB">
+                                <rect key="frame" x="117" y="821" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Made For HooHacks 2020">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJy-D7-OBd">
                                 <rect key="frame" x="102" y="284" width="210" height="51"/>
                                 <constraints>
@@ -87,9 +94,355 @@
             </objects>
             <point key="canvasLocation" x="113.04347826086958" y="114.50892857142857"/>
         </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="Ac4-Y7-ggl">
+            <objects>
+                <viewController title="Home Page Controller" id="Yeo-uz-g6U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qpj-WB-4TM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="2QF-av-6Ez">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddw-eO-QgU">
+                                <rect key="frame" x="-23" y="597" width="460" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="inI-nK-So1"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Talk to other people!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocV-JA-KR7">
+                                <rect key="frame" x="69" y="129" width="276" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="dgf-w6-AHt"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Dashboard">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="42" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN5-y4-Jxk">
+                                <rect key="frame" x="54" y="235" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Mni-Wf-S2Q"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your workout for today...">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ype-cE-l0r">
+                                <rect key="frame" x="54" y="286" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="E5b-7c-xgQ"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Pushups">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZo-BM-KA2">
+                                <rect key="frame" x="54" y="337" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="L02-le-ywN"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Wall sits">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUH-Vs-S3h">
+                                <rect key="frame" x="54" y="388" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="rfT-Yr-X7e"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Running">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="button_go-workout" translatesAutoresizingMaskIntoConstraints="NO" id="Lsa-pw-ygq">
+                                <rect key="frame" x="54" y="459" width="306.5" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="button_go-to-discussion-board" translatesAutoresizingMaskIntoConstraints="NO" id="rCa-0S-Vgo">
+                                <rect key="frame" x="11" y="656" width="393" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="82a-uU-k6x"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdD-qz-fPC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879.71014492753625" y="114.50892857142857"/>
+        </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="sYW-4K-9Kn">
+            <objects>
+                <viewController title="Home Page Controller" id="bJZ-wk-mbm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ljd-uZ-dEh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="jGS-VG-HFb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aW-Qb-vog">
+                                <rect key="frame" x="-23" y="635" width="460" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="2oa-PS-hyw"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Talk to other people!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgB-Tm-Zpv">
+                                <rect key="frame" x="69" y="129" width="276" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="C1D-Zf-Rhi"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Dashboard">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="42" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="button_go-to-discussion-board" translatesAutoresizingMaskIntoConstraints="NO" id="c8M-S6-VM2">
+                                <rect key="frame" x="11" y="720" width="393" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoB-vq-pVJ">
+                                <rect key="frame" x="54" y="268" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Wjt-9T-cwf"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your workout for today...">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMd-kE-OPx">
+                                <rect key="frame" x="54" y="319" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="iux-yh-pg9"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Pushups">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saw-jz-KKj">
+                                <rect key="frame" x="54" y="370" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="ezC-8M-Yfv"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Wall sits">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XG-XF-k9Z">
+                                <rect key="frame" x="54" y="421" width="306.5" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="jka-lD-bzB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="- Running">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="28" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="button_go-workout" translatesAutoresizingMaskIntoConstraints="NO" id="BvC-Wr-eap">
+                                <rect key="frame" x="54" y="492" width="306.5" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Xc4-gW-hVz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZ1-3h-llc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613" y="115"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mGa-W0-oYd">
+            <objects>
+                <viewController id="P6M-hM-8Rf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TMd-bq-vXt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="wgN-cY-F6C">
+                                <rect key="frame" x="-275" y="44" width="920" height="930"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="aldrickjohansignature" translatesAutoresizingMaskIntoConstraints="NO" id="y5Q-mX-a8N">
+                                <rect key="frame" x="55" y="262" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="renzosig" translatesAutoresizingMaskIntoConstraints="NO" id="QdY-TI-TYQ">
+                                <rect key="frame" x="10" y="345" width="394" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="weiwangsig" translatesAutoresizingMaskIntoConstraints="NO" id="WlR-eq-Qy9">
+                                <rect key="frame" x="59" y="460" width="279" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yaseenSig" translatesAutoresizingMaskIntoConstraints="NO" id="76J-HG-8gU">
+                                <rect key="frame" x="23" y="564" width="350" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daq-R3-0Lz">
+                                <rect key="frame" x="179" y="690" width="39" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="X"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dcm-zk-PyT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1PS-A8-2Zx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="794"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vND-lW-XKB">
+            <objects>
+                <viewController id="odD-Z4-bbT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KL7-ax-l9Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="wk4-FU-jdp">
+                                <rect key="frame" x="-275" y="44" width="920" height="930"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="aldrickjohansignature" translatesAutoresizingMaskIntoConstraints="NO" id="aWf-j7-rlq">
+                                <rect key="frame" x="55" y="262" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="renzosig" translatesAutoresizingMaskIntoConstraints="NO" id="Vs9-JG-bMT">
+                                <rect key="frame" x="10" y="345" width="394" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="weiwangsig" translatesAutoresizingMaskIntoConstraints="NO" id="Y1W-Si-k06">
+                                <rect key="frame" x="59" y="460" width="279" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yaseenSig" translatesAutoresizingMaskIntoConstraints="NO" id="ozr-AS-vOg">
+                                <rect key="frame" x="23" y="564" width="350" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riJ-2M-fLS">
+                                <rect key="frame" x="179" y="690" width="39" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="X"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zQj-Iy-zmc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aj1-LH-aOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880" y="794"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="X" width="39" height="43"/>
+        <image name="aldrickjohansignature" width="287" height="50"/>
         <image name="appbackground2-1" width="151.5" height="83"/>
         <image name="begin" width="331" height="70"/>
+        <image name="button_go-to-discussion-board" width="393" height="70"/>
+        <image name="button_go-workout" width="254" height="70"/>
+        <image name="loading" width="920" height="930"/>
+        <image name="renzosig" width="855" height="105"/>
+        <image name="weiwangsig" width="279" height="80"/>
+        <image name="yaseenSig" width="350" height="87"/>
     </resources>
 </document>
