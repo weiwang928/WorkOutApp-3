@@ -17,13 +17,22 @@
 		44D00C5C243043F80099677F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5B243043F80099677F /* AppDelegate.swift */; };
 		44D00C5E243043F80099677F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5D243043F80099677F /* SceneDelegate.swift */; };
 		44D00C60243043F80099677F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C5F243043F80099677F /* ViewController.swift */; };
-		44D00C63243043F80099677F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C61243043F80099677F /* Main.storyboard */; };
-		44D00C65243043F90099677F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C64243043F90099677F /* Assets.xcassets */; };
-		44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C66243043F90099677F /* LaunchScreen.storyboard */; };
 		44D00C73243043F90099677F /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C72243043F90099677F /* testTests.swift */; };
 		44D00C7E243043F90099677F /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00C7D243043F90099677F /* testUITests.swift */; };
-		C3BBF33B2431100300C35F13 /* Temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BBF33A2431100300C35F13 /* Temp.storyboard */; };
-		D5DA6DDF24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA6DDE24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard */; };
+		C3BBF35124316F0B00C35F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF33D24316F0B00C35F13 /* ViewController.swift */; };
+		C3BBF35224316F0B00C35F13 /* SecondPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF33E24316F0B00C35F13 /* SecondPageSurveyController.swift */; };
+		C3BBF35324316F0B00C35F13 /* EighthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF33F24316F0B00C35F13 /* EighthPageSurveyController.swift */; };
+		C3BBF35424316F0B00C35F13 /* ForthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34024316F0B00C35F13 /* ForthPageSurveyController.swift */; };
+		C3BBF35524316F0B00C35F13 /* SixthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34124316F0B00C35F13 /* SixthPageSurveyController.swift */; };
+		C3BBF35624316F0B00C35F13 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34224316F0B00C35F13 /* CustomButton.swift */; };
+		C3BBF35D24316F0B00C35F13 /* ThirdPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34B24316F0B00C35F13 /* ThirdPageSurveyController.swift */; };
+		C3BBF35E24316F0B00C35F13 /* FifthPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34C24316F0B00C35F13 /* FifthPageSurveyController.swift */; };
+		C3BBF35F24316F0B00C35F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34D24316F0B00C35F13 /* AppDelegate.swift */; };
+		C3BBF36124316F0B00C35F13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF34F24316F0B00C35F13 /* SceneDelegate.swift */; };
+		C3BBF36224316F0B00C35F13 /* SeventhPageSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBF35024316F0B00C35F13 /* SeventhPageSurveyController.swift */; };
+		C3BBF366243171D400C35F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C61243043F80099677F /* Main.storyboard */; };
+		C3BBF367243171D800C35F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D00C64243043F90099677F /* Assets.xcassets */; };
+		C3BBF368243171F900C35F13 /* nogymnoexcuse.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BBF36324316F2F00C35F13 /* nogymnoexcuse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +60,7 @@
 		444093C624310EAE0038C89D /* SixthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthPageSurveyController.swift; sourceTree = "<group>"; };
 		444093C82431114A0038C89D /* SeventhPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhPageSurveyController.swift; sourceTree = "<group>"; };
 		444093CA243116400038C89D /* EighthPageSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthPageSurveyController.swift; sourceTree = "<group>"; };
-		44D00C58243043F80099677F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D00C58243043F80099677F /* Corona Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D00C5B243043F80099677F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D00C5D243043F80099677F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44D00C5F243043F80099677F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +75,25 @@
 		44D00C7D243043F90099677F /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		44D00C7F243043F90099677F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3BBF33A2431100300C35F13 /* Temp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Temp.storyboard; sourceTree = "<group>"; };
+		C3BBF33D24316F0B00C35F13 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3BBF33E24316F0B00C35F13 /* SecondPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF33F24316F0B00C35F13 /* EighthPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EighthPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF34024316F0B00C35F13 /* ForthPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF34124316F0B00C35F13 /* SixthPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF34224316F0B00C35F13 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C3BBF34324316F0B00C35F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3BBF34524316F0B00C35F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3BBF34724316F0B00C35F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3BBF34824316F0B00C35F13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3BBF34924316F0B00C35F13 /* Temp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Temp.storyboard; sourceTree = "<group>"; };
+		C3BBF34A24316F0B00C35F13 /* DiscussionBoardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DiscussionBoardStoryboard.storyboard; sourceTree = "<group>"; };
+		C3BBF34B24316F0B00C35F13 /* ThirdPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF34C24316F0B00C35F13 /* FifthPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF34D24316F0B00C35F13 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3BBF34E24316F0B00C35F13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BBF34F24316F0B00C35F13 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3BBF35024316F0B00C35F13 /* SeventhPageSurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhPageSurveyController.swift; sourceTree = "<group>"; };
+		C3BBF36324316F2F00C35F13 /* nogymnoexcuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nogymnoexcuse.png; path = Assets.xcassets/nogymnoexcuse.imageset/nogymnoexcuse.png; sourceTree = "<group>"; };
 		D5DA6DDE24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiscussionBoardStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +135,7 @@
 		44D00C59243043F80099677F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44D00C58243043F80099677F /* App.app */,
+				44D00C58243043F80099677F /* Corona Challenge.app */,
 				44D00C6E243043F90099677F /* WorkOutApp#3Tests.xctest */,
 				44D00C79243043F90099677F /* WorkOutApp#3UITests.xctest */,
 			);
@@ -132,6 +160,8 @@
 				44D00C64243043F90099677F /* Assets.xcassets */,
 				44D00C66243043F90099677F /* LaunchScreen.storyboard */,
 				44D00C69243043F90099677F /* Info.plist */,
+				C3BBF36324316F2F00C35F13 /* nogymnoexcuse.png */,
+				C3BBF33C24316F0B00C35F13 /* App */,
 				C3BBF33A2431100300C35F13 /* Temp.storyboard */,
 			);
 			path = App;
@@ -155,6 +185,31 @@
 			path = testUITests;
 			sourceTree = "<group>";
 		};
+		C3BBF33C24316F0B00C35F13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C3BBF33D24316F0B00C35F13 /* ViewController.swift */,
+				C3BBF33E24316F0B00C35F13 /* SecondPageSurveyController.swift */,
+				C3BBF33F24316F0B00C35F13 /* EighthPageSurveyController.swift */,
+				C3BBF34024316F0B00C35F13 /* ForthPageSurveyController.swift */,
+				C3BBF34124316F0B00C35F13 /* SixthPageSurveyController.swift */,
+				C3BBF34224316F0B00C35F13 /* CustomButton.swift */,
+				C3BBF34324316F0B00C35F13 /* Assets.xcassets */,
+				C3BBF34424316F0B00C35F13 /* LaunchScreen.storyboard */,
+				C3BBF34624316F0B00C35F13 /* Main.storyboard */,
+				C3BBF34824316F0B00C35F13 /* Main.storyboard */,
+				C3BBF34924316F0B00C35F13 /* Temp.storyboard */,
+				C3BBF34A24316F0B00C35F13 /* DiscussionBoardStoryboard.storyboard */,
+				C3BBF34B24316F0B00C35F13 /* ThirdPageSurveyController.swift */,
+				C3BBF34C24316F0B00C35F13 /* FifthPageSurveyController.swift */,
+				C3BBF34D24316F0B00C35F13 /* AppDelegate.swift */,
+				C3BBF34E24316F0B00C35F13 /* Info.plist */,
+				C3BBF34F24316F0B00C35F13 /* SceneDelegate.swift */,
+				C3BBF35024316F0B00C35F13 /* SeventhPageSurveyController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,7 +227,7 @@
 			);
 			name = "WorkOutApp#3";
 			productName = test;
-			productReference = 44D00C58243043F80099677F /* App.app */;
+			productReference = 44D00C58243043F80099677F /* Corona Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 		44D00C6D243043F90099677F /* WorkOutApp#3Tests */ = {
@@ -217,6 +272,9 @@
 		44D00C50243043F80099677F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Wei Wang";
@@ -259,11 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DA6DDF24310BB6006D4A4F /* DiscussionBoardStoryboard.storyboard in Resources */,
-				44D00C68243043F90099677F /* LaunchScreen.storyboard in Resources */,
-				44D00C65243043F90099677F /* Assets.xcassets in Resources */,
-				44D00C63243043F80099677F /* Main.storyboard in Resources */,
-				C3BBF33B2431100300C35F13 /* Temp.storyboard in Resources */,
+				C3BBF368243171F900C35F13 /* nogymnoexcuse.png in Resources */,
+				C3BBF367243171D800C35F13 /* Assets.xcassets in Resources */,
+				C3BBF366243171D400C35F13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +344,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BBF35424316F0B00C35F13 /* ForthPageSurveyController.swift in Sources */,
 				444093CB243116400038C89D /* EighthPageSurveyController.swift in Sources */,
+				C3BBF35F24316F0B00C35F13 /* AppDelegate.swift in Sources */,
 				444093BF2430EF020038C89D /* SecondPageSurveyController.swift in Sources */,
+				C3BBF35D24316F0B00C35F13 /* ThirdPageSurveyController.swift in Sources */,
 				444093C724310EAE0038C89D /* SixthPageSurveyController.swift in Sources */,
+				C3BBF35624316F0B00C35F13 /* CustomButton.swift in Sources */,
 				444093C52431063B0038C89D /* FifthPageSurveyController.swift in Sources */,
+				C3BBF35324316F0B00C35F13 /* EighthPageSurveyController.swift in Sources */,
+				C3BBF36224316F0B00C35F13 /* SeventhPageSurveyController.swift in Sources */,
+				C3BBF35224316F0B00C35F13 /* SecondPageSurveyController.swift in Sources */,
+				C3BBF35524316F0B00C35F13 /* SixthPageSurveyController.swift in Sources */,
+				C3BBF35124316F0B00C35F13 /* ViewController.swift in Sources */,
 				444093C92431114A0038C89D /* SeventhPageSurveyController.swift in Sources */,
 				44D00C60243043F80099677F /* ViewController.swift in Sources */,
 				444093C3243102440038C89D /* ForthPageSurveyController.swift in Sources */,
+				C3BBF36124316F0B00C35F13 /* SceneDelegate.swift in Sources */,
+				C3BBF35E24316F0B00C35F13 /* FifthPageSurveyController.swift in Sources */,
 				44D00C5C243043F80099677F /* AppDelegate.swift in Sources */,
 				44D00C5E243043F80099677F /* SceneDelegate.swift in Sources */,
 				444093C12430FC470038C89D /* ThirdPageSurveyController.swift in Sources */,
@@ -347,6 +414,22 @@
 				44D00C67243043F90099677F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3BBF34424316F0B00C35F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BBF34524316F0B00C35F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3BBF34624316F0B00C35F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BBF34724316F0B00C35F13 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -470,16 +553,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 62RMKSAJD7;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HooHack.test;
-				PRODUCT_NAME = App;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaproj;
+				PRODUCT_NAME = "Corona Challenge";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -487,16 +573,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 62RMKSAJD7;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HooHack.test;
-				PRODUCT_NAME = App;
+				PRODUCT_BUNDLE_IDENTIFIER = ronastuff;
+				PRODUCT_NAME = "Corona Challenge";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

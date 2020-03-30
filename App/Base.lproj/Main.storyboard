@@ -104,7 +104,7 @@
         <!--First Survey Page Controller-->
         <scene sceneID="OCR-RA-uue">
             <objects>
-                <viewController title="First Survey Page Controller" id="GC7-D4-a42" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="First Survey Page Controller" id="GC7-D4-a42" customClass="ViewController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fbD-3u-dij" userLabel="Name">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
         <!--Second Page Survey Controller-->
         <scene sceneID="2mV-yk-lHY">
             <objects>
-                <viewController id="hrg-aA-Ymm" customClass="SecondPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hrg-aA-Ymm" customClass="SecondPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UHY-7w-lKc" userLabel="Gender">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -279,7 +279,7 @@
         <!--Third Survey Page Controller-->
         <scene sceneID="JnU-Ys-54I">
             <objects>
-                <viewController title="Third Survey Page Controller" id="zvB-bu-eYw" customClass="ThirdPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Third Survey Page Controller" id="zvB-bu-eYw" customClass="ThirdPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YGI-HM-34l" userLabel="Age">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +365,7 @@
         <!--Forth Page Survey Controller-->
         <scene sceneID="iX5-bt-OXP">
             <objects>
-                <viewController id="m8q-Ex-574" customClass="ForthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m8q-Ex-574" customClass="ForthPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gvy-Ur-KK2" userLabel="WeightHeight">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -494,7 +494,7 @@
         <!--Fifth Page Survey Controller-->
         <scene sceneID="o5h-ug-rZg">
             <objects>
-                <viewController title="Fifth Page Survey Controller" id="aAA-KX-s5P" customClass="FifthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Fifth Page Survey Controller" id="aAA-KX-s5P" customClass="FifthPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gkq-2r-ncY" userLabel="PerWeek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -586,7 +586,7 @@
         <!--Sixth Page Survey Controller-->
         <scene sceneID="yQI-KV-2GC">
             <objects>
-                <viewController id="xBV-kA-NwU" customClass="SixthPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xBV-kA-NwU" customClass="SixthPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uNu-WV-kWf" userLabel="SpecificMuscles">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -685,7 +685,7 @@
         <!--Seventh Page Survey Controller-->
         <scene sceneID="c0o-wI-Vgl">
             <objects>
-                <viewController title="Seventh Page Survey Controller" id="Apo-uF-NLK" customClass="SeventhPageSurveyController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Seventh Page Survey Controller" id="Apo-uF-NLK" customClass="SeventhPageSurveyController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpL-02-2bi" userLabel="MuscleList">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -863,7 +863,7 @@
         <!--Eighth Page Survey Controller-->
         <scene sceneID="jhl-rk-BJT">
             <objects>
-                <viewController title="Eighth Page Survey Controller" id="HhZ-cC-wQN" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Eighth Page Survey Controller" id="HhZ-cC-wQN" customClass="ViewController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="psU-Ym-UZk" userLabel="End">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1072,6 +1072,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfH-mR-KiJ">
                                 <rect key="frame" x="80" y="447" width="254" height="70"/>
                                 <state key="normal" image="button_go-workout"/>
+                                <connections>
+                                    <segue destination="Bjd-LR-sSR" kind="show" id="UVn-NJ-0iB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4j-B2-alb">
                                 <rect key="frame" x="11" y="666" width="393" height="70"/>
@@ -1306,7 +1309,7 @@
         <!--View Controller-->
         <scene sceneID="t3R-q1-TOD">
             <objects>
-                <viewController id="xIP-UH-axW" customClass="ViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xIP-UH-axW" customClass="ViewController" customModule="RonaVirusChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q9H-sz-0T1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1387,9 +1390,67 @@
             </objects>
             <point key="canvasLocation" x="-939" y="4002"/>
         </scene>
+        <!--Sample Workout Controller Scene-->
+        <scene sceneID="ZHk-fW-0Ws">
+            <objects>
+                <viewController title="Sample Workout Controller Scene" id="Bjd-LR-sSR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Bh-3n-x82">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="FQI-da-p0n">
+                                <rect key="frame" x="0.0" y="-44" width="414" height="886"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gM0-6K-tPz">
+                                <rect key="frame" x="50" y="50" width="314" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xO-Rj-I9v">
+                                <rect key="frame" x="50" y="561" width="294" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="167" id="XMb-4n-sSM"/>
+                                </constraints>
+                                <string key="text">Get down on all fours, placing your hands slightly wider than your shoulders. Straighten your arms and legs. Then, lower your body until your chest nearly touches the floor. Puase, then push yourself back up. Repeat for 15 reps.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Basic-Push-Up" translatesAutoresizingMaskIntoConstraints="NO" id="29i-wc-0SZ">
+                                <rect key="frame" x="77" y="264" width="240" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="5nj-kz-dXj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FQI-da-p0n" firstAttribute="leading" secondItem="Wxl-7g-3ak" secondAttribute="leading" id="1ZW-EU-u53"/>
+                            <constraint firstItem="29i-wc-0SZ" firstAttribute="centerX" secondItem="5xO-Rj-I9v" secondAttribute="centerX" id="AMJ-qh-QwV"/>
+                            <constraint firstItem="gM0-6K-tPz" firstAttribute="top" secondItem="Wxl-7g-3ak" secondAttribute="top" constant="50" id="Fdx-V3-DV4"/>
+                            <constraint firstItem="gM0-6K-tPz" firstAttribute="centerX" secondItem="9Bh-3n-x82" secondAttribute="centerX" id="GZj-HJ-T2K"/>
+                            <constraint firstItem="29i-wc-0SZ" firstAttribute="leading" secondItem="Wxl-7g-3ak" secondAttribute="leading" constant="77" id="cPG-FD-dz2"/>
+                            <constraint firstItem="gM0-6K-tPz" firstAttribute="leading" secondItem="Wxl-7g-3ak" secondAttribute="leading" constant="50" id="kni-mS-TVQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="FQI-da-p0n" secondAttribute="bottom" constant="-34" id="lxL-JO-qog"/>
+                            <constraint firstItem="gM0-6K-tPz" firstAttribute="leading" secondItem="5xO-Rj-I9v" secondAttribute="leading" id="nOi-Pm-ICq"/>
+                            <constraint firstItem="Wxl-7g-3ak" firstAttribute="bottom" secondItem="5xO-Rj-I9v" secondAttribute="bottom" constant="80" id="nj7-NS-6AF"/>
+                            <constraint firstItem="FQI-da-p0n" firstAttribute="top" secondItem="9Bh-3n-x82" secondAttribute="topMargin" constant="-44" id="qUF-sz-GUa"/>
+                            <constraint firstItem="Wxl-7g-3ak" firstAttribute="trailing" secondItem="5xO-Rj-I9v" secondAttribute="trailing" constant="70" id="sjh-j5-RSR"/>
+                            <constraint firstItem="FQI-da-p0n" firstAttribute="centerX" secondItem="gM0-6K-tPz" secondAttribute="centerX" id="vFs-Cm-c56"/>
+                            <constraint firstItem="5xO-Rj-I9v" firstAttribute="top" secondItem="29i-wc-0SZ" secondAttribute="bottom" constant="48" id="xej-g6-CiQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wxl-7g-3ak"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bbU-NS-iWP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NL6-yX-sMR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1752" y="3319"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EyO-9l-Ex1"/>
+        <segue reference="ZTm-YF-UW7"/>
         <segue reference="IDR-CP-Nwn"/>
         <segue reference="p1m-ab-tRO"/>
         <segue reference="gBP-fx-2ru"/>
@@ -1401,6 +1462,7 @@
         <segue reference="D5P-WU-E5X"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Basic-Push-Up" width="1456" height="1456"/>
         <image name="X" width="39" height="43"/>
         <image name="aldrickjohansignature" width="287" height="50"/>
         <image name="appbackground2-1" width="151.5" height="83"/>
